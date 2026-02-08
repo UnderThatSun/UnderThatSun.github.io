@@ -1,58 +1,41 @@
-/* Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-/* Page background */
 body {
-  min-height: 100vh;
-  background: linear-gradient(180deg, #1e1a14, #2b2318);
-  color: #e6dccb;
-  font-family: Georgia, "Times New Roman", serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Main layout */
-.container {
-  max-width: 800px;
-  padding: 40px;
-  text-align: center;
+  background-color: #1b160f;
+  color: #d8c9a5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
 }
 
 /* Logo text */
 .logo {
-  font-size: 4rem;
+  font-size: 48px;
+  letter-spacing: 6px;
   font-weight: normal;
-  letter-spacing: 0.08em;
-  color: #d6b77c;
-  text-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.6),
-    0 0 20px rgba(214, 183, 124, 0.15);
-  margin-bottom: 30px;
+  color: #cfae70;
+  text-shadow: 2px 2px 0 #000;
 }
 
-/* Subtitle text */
+/* Subtitle */
 .subtitle {
-  font-size: 1.2rem;
-  line-height: 1.7;
-  color: #cfc2a8;
-  max-width: 650px;
-  margin: 0 auto;
+  width: 600px;
+  line-height: 1.6;
+  font-size: 15px;
 }
 
-/* Subtle atmosphere */
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: radial-gradient(
-    circle at top,
-    rgba(255, 220, 160, 0.08),
-    transparent 60%
-  );
-  pointer-events: none;
+/* Links */
+.link {
+  color: #bfa06a;
+  text-decoration: none;
+  font-family: Courier, monospace;
+}
+
+.link:hover {
+  color: #e6c98a;
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  font-size: 12px;
+  color: #8f8268;
+  font-family: Courier, monospace;
 }
