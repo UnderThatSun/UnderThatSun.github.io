@@ -2,13 +2,13 @@ body {
   background-color: #1b160f;
   color: #d8c9a5;
   font-family: Courier, "Courier New", monospace;
-  font-size: 14px;
+  font-size: 18px;
   margin: 20px;
 }
 
 /* Logo text */
 .logo {
-  font-size: 32px;
+  font-size: 48px;
   letter-spacing: 4px;
   font-weight: normal;
   color: #cfae70;
@@ -20,6 +20,7 @@ body {
   max-width: 640px;
   line-height: 1.6;
   margin-bottom: 30px;
+  font-size: 20px;
 }
 
 /* Links */
@@ -39,4 +40,5 @@ body {
   color: #8f8268;
   margin-top: 40px;
 }
+
 
