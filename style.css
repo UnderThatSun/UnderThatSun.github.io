@@ -1,7 +1,58 @@
-body {
-  background-color: #111;
-  color: #eee;
-  font-family: system-ui, sans-serif;
+/* Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1e1a14, #2b2318);
+  color: #e6dccb;
+  font-family: Georgia, "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main layout */
+.container {
+  max-width: 800px;
   padding: 40px;
+  text-align: center;
+}
+
+/* Logo text */
+.logo {
+  font-size: 4rem;
+  font-weight: normal;
+  letter-spacing: 0.08em;
+  color: #d6b77c;
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(214, 183, 124, 0.15);
+  margin-bottom: 30px;
+}
+
+/* Subtitle text */
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #cfc2a8;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Subtle atmosphere */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at top,
+    rgba(255, 220, 160, 0.08),
+    transparent 60%
+  );
+  pointer-events: none;
 }
